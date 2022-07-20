@@ -1,0 +1,166 @@
+* {
+	padding:0;
+	margin:0;
+	font-family: 'Quicksand', sans-serif;
+	color: rgb(17, 15, 15);
+}
+header {
+	height:70px;
+}
+header h1 {
+	display: inline-block;
+	float: left;
+	padding:15px 24px;
+	text-transform: uppercase;
+}
+header h1 a {
+	transition: .3s;
+}
+header ul {
+	float: right;
+}
+header ul li {
+	padding:24px;
+	display: inline-block;
+}
+header ul li a {
+	transition: .3s;
+}
+header ul li a:hover {
+	color: #d6eadf; //bagian atas
+}
+a {
+	text-decoration: none;
+}
+.container {
+	width:90%;
+	margin: 0 auto;
+}
+.container::after {
+	content: '';
+	display: block;
+	clear: both;
+	margin: center;
+}
+.mobile-menu {
+	float: right;
+	display: none;
+	padding:18px;
+}
+.mobile-menu:hover {
+	cursor: pointer;
+}
+#check {
+	display: none;
+}
+.banner {
+	background: url('pelangi.jpg');
+	padding:150px 0;
+}
+section {
+	padding:50px 0;
+}
+.banner img { 
+	width: 200px;
+	border-radius: 10px;
+	box-shadow: 0 3px 5px #d6eadf;
+	margin-bottom: 10px;
+}
+.banner h2,
+.banner p,
+.banner span {
+	color: #d6eadf;
+}
+.banner h2 {
+	margin-bottom: 10px;
+}
+.banner p {
+	font-size: 18px;
+}
+.banner-left {
+	padding-left:24px;
+}
+section h3 {
+	padding-bottom: 20px;
+	text-align: center;
+	margin:20px;
+	position: relative;
+}
+section h3::before {
+	content:'';
+	display: block;
+	position: absolute;
+	bottom: 0;
+	width:120px;
+	height:1px;
+	background-color: rgb(211, 184, 214);
+	left: calc(50% - 60px);
+}
+section h3::after {
+	content:'';
+	display: block;
+	position: absolute;
+	bottom: -1px;
+	width:40px;
+	height:4px;
+	background-color: #d6eadf;
+	left: calc(50% - 20px);
+}
+#skills,
+#contact {
+	background-color: #d6eadf;
+}
+#skills .bar {
+	height: 30px;
+	background-color: #eac4d5;
+	border:1px solid #ddd;
+	margin: 5px 0 20px 0;
+}
+.bar .nilai {
+	height:30px;
+	background-color: #d6eadf;
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+}
+.html {
+	width:100%;
+}
+.css {
+	width:90%;
+}
+.js {
+	width:80%;
+}
+.php {
+	width:95%;
+}
+.ps {
+	width:85%;
+}
+.col-4 {
+	width:25%;
+	box-sizing: border-box;
+	padding:5px;
+	float: left;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.col-4 img {
+	width:100%;
+}
+.col-4 a:hover img {
+	transform: scale(1.2);
+}
+.col-3 {
+	width:33.33%;
+	box-sizing: border-box;
+	float: left;
+	text-align: center;
+	padding:50px 10px;
+}
+.col-3 h4 {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 15px;
+}

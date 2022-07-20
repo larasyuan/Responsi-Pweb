@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Laras Yuan Indrawati</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+	</head>
+	<body background="#eac4d5">
+	
+		<!-- bagian header -->
+        <header>
+			<div class="container">
+				<ul>
+					<li><a href="#form">Transaction</a></li>
+					<li><a href="#harga">Menu</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+
+				<!-- menu mobile -->
+				<label for="check" class="mobile-menu"><i class="fas fa-bars fa-2x"></i></label>
+			</div>
+		</header>
+
+		<!-- bagian banner -->
+		<section class="banner">
+			<div class="container">
+				<div class="banner-left">
+					<h2>Hello. . .<br>
+					<span class="efek-ngetik"></span></h2>
+					<p>Eat me and you will feeling happy :)</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- bagian Transaksi -->
+		<section id="form">
+			<div class="container">
+				<h3>TRANSACTION</h3>
+	<div align="center"><strong><font size="6" face="Courier New, Courier, mono"></font></strong></div>
+    <form name="form1" method="post" action="proses.php">
+    <table width="58%" border="0" align="center">
+    <tr>
+    <td>Name</td>
+    <td><input name="nama" type="text" id="nama"></td>
+    </tr>
+    
+    <tr>
+    <td>Address</td>
+    <td><input name="alamat" type="text" id="alamat"></td>
+    </tr>
+    
+    <tr>
+    <td>Handphone</td>
+    <td><input name="no" type="text" id="no"></td> </tr>
+    </tr>
+
+    <tr>
+    <td>Menu</td>
+    <td><select name="js" id="js">
+    <option>Tiramisu</option>
+    <option>Oreo</option>
+    <option>Belgian Chocolate</option>
+    <option>Red Velvet</option>
+    <option>Matcha</option>
+    <option>Sweet Berry</option>
+    <option>Cheese</option>
+    <option>French Vanilla</option>
+
+    </select></td>
+    </tr>
+
+    <tr>
+    <td>Note</td>
+    <td><textarea name="komentar" id="komentar"></textarea></td> </textarea>
+    </tr>
+   
+    <tr>
+    <td>&nbsp;</td>
+    <td><input type="submit" name="Submit" value="Kirim"><input type="reset" name="Submit2" value="Batal">
+    </td>
+    </tr>
+    </table>
+    </form>
+    <div align="center"><strong><a href="proses.php">**ORDER DETAILS**</a></strong></div>
+    <br></body><br>
+
+   <!-- bagian Daftar Harga-->
+    <section id="harga">
+      <div align ="center" class="container">
+         <h3>MENU</h3>
+         <div class="col-3">
+            <h4>Tiramisu Cake</h4>
+            <img src="tiramisu.jpg" width="200px" height="250px">
+            <p><br>Handmade premium cake with mascarpone cream and coffe powder topping.</p>
+            <p>160K</p>
+         </div>
+
+         <div class="col-3">
+            <h4>Oreo Cake</h4>
+            <img src="oreo.jpg" width="200px" height="250px">
+            <p><br>Handmade premium cake with creamy cookies and cream crumbs topping.</p>
+            <p>160K</p>
+         </div>
+
+         <div class="col-3">
+            <h4>Belgian Chocolate Cake</h4>
+            <img src="belgian.jpg" width="200px" height="250px">
+            <p><br>Handmade premium cake with rich dark chocolate cream and chocolate topping.</p>
+            <p>160K</p>
+         </div>	
+
+         <div class="col-3">
+             <h4>Red Velvet Cake</h4>
+             <img src="redvelvet.jpg" width="200px" height="250px">
+             <p><br>Handmade premium cake with red velvet cream and cheese cream.</p>
+             <p>160K</p>
+         </div>
+
+         <div class="col-3">
+             <h4>Matcha Cake</h4>
+             <img src="matcha.jpg" width="200px" height="250px">
+             <p><br>Handmade premium cake with matcha cream topping.</p>
+             <p>160K</p>
+         </div>
+
+         <div class="col-3">
+             <h4>Cheese Cake</h4>
+             <img src="cheese.jpg" width="200px" height="250px">
+             <p><br>Handmade premium cake with cheese cream and grated cheddar topping.</p>
+             <p>160K</p>
+         </div>
+
+      </div>
+			</div>
+		</section>
+
+		<!-- bagian contact -->
+		<section id="contact">
+			<div class="container">
+				<h3>Contact</h3>
+				<div class="col-3">
+					<h4>Address</h4>
+					<p>Jl. 11 April, Kuningan, Jawa Barat</p>
+				</div>
+
+				<div class="col-3">
+					<h4>Email</h4>
+					<p>indrawatiyuan@gmail.com</p>
+				</div>
+
+				<div class="col-3">
+					<h4>Handphone</h4>
+					<p>0856212380</p>
+				</div>	
+			</div>
+		</section>
+		<script src="script.js"></script>
+	</body>
+</html>
